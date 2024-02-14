@@ -10,8 +10,8 @@ const Home = () => {
     <Page>
       <AppHeader />
       <Content
-        title="Les recettes oRecipes"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, explicabo."
+        title="Aza-Recettes"
+        text="Voici une liste de plusieurs recettes de cuisine :D"
         recipes={recipes}
       />
     </Page>

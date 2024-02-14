@@ -6,7 +6,7 @@ import LoginForm from 'src/components/LoginForm';
 
 import './style.scss';
 
-import logo from 'src/assets/logo.png';
+import logo from 'src/assets/recettes.png';
 import { changeLoginField, saveLoginSuccessful } from '../../actions/user';
 
 const AppHeader = () => {
@@ -40,7 +40,7 @@ const AppHeader = () => {
 
   return (
     <header className="header">
-      <img src={logo} className="header-logo" alt="Logo oRecipes" />
+      <img src={logo} className="header-logo" alt="Logo aza-recettes" />
       <LoginForm
         email={emailValue}
         password={passwordValue}
