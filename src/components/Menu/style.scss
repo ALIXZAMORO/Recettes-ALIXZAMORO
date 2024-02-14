@@ -8,7 +8,7 @@
   width: vars.$menuWidth;
   padding: vars.$halfGutter 0;
   background-color: color.scale(vars.$color, $lightness: -80%);
-  box-shadow: inset -20px 0 20px -20px rgba(0,0,0,.75);
+  box-shadow: inset -20px 0 20px -20px rgb(180, 160, 160);
   height: 100vh;
   
   @media (max-width: vars.$small) {
